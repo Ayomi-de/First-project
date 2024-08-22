@@ -1,0 +1,143 @@
+:/* selected tags {
+    property: value;
+} */
+
+body {
+    font:15px/1.5 Arial,Helvetica,San-serif;
+    padding:0;
+    margin:0;
+    background-color:snow-white;
+}
+/*  Global */
+.container {
+    width:80% ;
+    margin:auto;
+    overflow:hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+ }
+ 
+ .button_1{
+     height:38px;
+     background:red;
+     border:0;
+     padding-right:20 px;
+     padding-left:20px;
+     color:white;
+ }
+ .dark{
+     padding:15px;
+     background: grey;
+     color:white;
+     margin-top:10px;
+     margin-botton:10px;
+ }
+/* Header */
+header {
+    background: grey;
+    color: white;
+    padding:30px;
+    min-height:70px;
+    border-bottom:red 3px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;  
+}
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+header .highlight, header .current a{
+    color:red;
+    font-weight: bold;
+}
+header a:hover{
+    color:purple;
+    font-weight:bold;
+}
+/* showcase */
+#showcase{
+    min-height:400px;
+    background:url("red_cube.jpg") no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    color:white;
+}
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+#showcase p{
+    font-size:20px;
+}
+/* newsletter */
+#newsletter{
+    padding:15px;
+    color:white;
+    background:grey;
+}
+#newsletter h1{
+    float:left;
+}
+#newsletter form{
+    float:right;
+    margin-top:15px;
+}
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width: 250px;
+}
+/* Boxes */
+#boxes{
+    margin-top:20px;
+}
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+#boxes .box img{
+    width:150px;
+}
+
+
+/* main.col*/
+article#main-col{
+    float: left;
+    width:65%;
+}
+/* services */
+ul#services li{
+    list-style: none;
+    padding:0px;
+    border: white solid 1px;
+    margin-bottom:5px;
+    background:white;
+  }
+  footer{
+      padding:20px;
+      margin-top:20px;
+      background-color: red;
+      color:white;
+      text-align:center;
+  }
